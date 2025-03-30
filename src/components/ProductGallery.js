@@ -3,15 +3,16 @@ import { useNavigate } from 'react-router-dom';
 import './productGallery.css';
 
 const products = [
-  { id: 1, name: 'Ciba Shape', image: '/ciba.jpg', link: '/products/ciba' },
-  { id: 2, name: 'Emida Shape', image: '/emida.jpg', link: '/products/emida' },
-  { id: 3, name: 'Vertical Shape', image: '/vertical.jpg', link: '/products/vertical' },
-  { id: 4, name: 'Amway Shape', image: '/amway.jpg', link: '/products/amway' },
-  { id: 5, name: 'Right Angle Shape', image: '/right-angle.jpg', link: '/products/rightangle' },
-  { id: 6, name: 'Osin Shape', image: '/osin.jpg', link: '/products/osin' },
-  { id: 7, name: 'Oval Shape Jerry', image: '/oval jerry.jpg', link: '/products/ovaljerry' },
-  { id: 8, name: 'Aloe Vera Shape', image: '/aloe veraa.jpg', link: '/products/aloevera' },
+  { id: 1, name: 'Ciba Shape', image: process.env.PUBLIC_URL + '/ciba.jpg', link: '/products/ciba' },
+  { id: 2, name: 'Emida Shape', image: process.env.PUBLIC_URL + '/emida.jpg', link: '/products/emida' },
+  { id: 3, name: 'Vertical Shape', image: process.env.PUBLIC_URL + '/vertical.jpg', link: '/products/vertical' },
+  { id: 4, name: 'Amway Shape', image: process.env.PUBLIC_URL + '/amway.jpg', link: '/products/amway' },
+  { id: 5, name: 'Right Angle Shape', image: process.env.PUBLIC_URL + '/right-angle.jpg', link: '/products/rightangle' },
+  { id: 6, name: 'Osin Shape', image: process.env.PUBLIC_URL + '/osin.jpg', link: '/products/osin' },
+  { id: 7, name: 'Oval Shape Jerry', image: process.env.PUBLIC_URL + '/oval jerry.jpg', link: '/products/ovaljerry' },
+  { id: 8, name: 'Aloe Vera Shape', image: process.env.PUBLIC_URL + '/aloe veraa.jpg', link: '/products/aloevera' },
 ];
+
 
 const ProductGallery = () => {
   const navigate = useNavigate();
