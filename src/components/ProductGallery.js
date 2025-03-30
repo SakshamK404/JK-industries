@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './productGallery.css';
 
 const products = [
-  { id: 1, name: 'Ciba Shape', image: process.env.PUBLIC_URL + '/ciba.jpg', link: '/products/ciba' },
+  { id: 1, name: 'Ciba Shape', image: "https://sakshamk404.github.io/JK-industries/ciba.jpg", link: '/products/ciba' },
   { id: 2, name: 'Emida Shape', image: process.env.PUBLIC_URL + '/emida.jpg', link: '/products/emida' },
   { id: 3, name: 'Vertical Shape', image: process.env.PUBLIC_URL + '/vertical.jpg', link: '/products/vertical' },
   { id: 4, name: 'Amway Shape', image: process.env.PUBLIC_URL + '/amway.jpg', link: '/products/amway' },
