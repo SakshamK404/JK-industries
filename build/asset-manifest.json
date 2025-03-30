@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/JK-industries/static/css/main.a4bee801.css",
-    "main.js": "/JK-industries/static/js/main.3ba9ba1d.js",
+    "main.js": "/JK-industries/static/js/main.feb4da21.js",
     "index.html": "/JK-industries/index.html",
     "main.a4bee801.css.map": "/JK-industries/static/css/main.a4bee801.css.map",
-    "main.3ba9ba1d.js.map": "/JK-industries/static/js/main.3ba9ba1d.js.map"
+    "main.feb4da21.js.map": "/JK-industries/static/js/main.feb4da21.js.map"
   },
   "entrypoints": [
     "static/css/main.a4bee801.css",
-    "static/js/main.3ba9ba1d.js"
+    "static/js/main.feb4da21.js"
   ]
 }
