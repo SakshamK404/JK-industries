@@ -9,7 +9,6 @@ import FooterComponent from "./components/Footer";
 import ProductGallery from "./components/ProductGallery";
 import CompanyBrief from "./components/CompanyBrief";
 
-
 import CibaShape from "./components/products/CibaShape";
 import EmidaShape from "./components/products/EmidaShape";
 import AloeVeraShape from "./components/products/AloeVeraShape";
@@ -19,10 +18,9 @@ import OsinShape from "./components/products/OsinShape";
 import OvalShapeJerry from "./components/products/OvalShapeJerry";
 import AmwayShape from "./components/products/AmwayShape";
 
-
 function App() {
   return (
-    <Router>
+    <Router basename="/JK-industries">
       <Navbar />
       <Routes>
         <Route
@@ -45,8 +43,6 @@ function App() {
         <Route path="/products/ovaljerry" element={<OvalShapeJerry />} />
         <Route path="/products/amway" element={<AmwayShape />} />
         <Route path="/company-brief" element={<CompanyBrief />} />
-
-
       </Routes>
       <FooterComponent />
     </Router>
