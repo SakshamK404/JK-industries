@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="top-bar">
         {/* Left Side: Logo + Details */}
         <div className="logo-section">
-          <img src="/logo.jpg" alt="JK industries" className="logo-img" />
+        <img src={process.env.PUBLIC_URL + "/logo.jpg"} alt="JK industries" className="logo-img" />
           <div>
             <h1 className="company-name">JK Industries</h1>
             <p className="company-location">📍 MIDC Ambad, Nashik, Maharashtra</p>
