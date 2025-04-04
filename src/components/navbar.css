@@ -83,9 +83,19 @@
 
 .nav-links {
   display: flex;
+  align-items: center;        /* ✅ Fix: vertical alignment */
   gap: 1.5rem;
   font-size: 0.875rem;
   font-weight: 500;
+  height: 40px;               /* ✅ Optional: consistent height */
+}
+
+.nav-home,
+.nav-link {
+  display: flex;              /* ✅ Center link text vertically */
+  align-items: center;
+  height: 100%;               /* ✅ Match nav-links height */
+  text-decoration: none;
 }
 
 .nav-home {
@@ -93,12 +103,10 @@
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 0.375rem;
-  text-decoration: none;
 }
 
 .nav-link {
   color: #374151;
-  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -112,6 +120,7 @@
   border: 1px solid #e5e7eb;
   border-radius: 0.375rem;
   overflow: hidden;
+  height: 36px;               /* ✅ Consistent height */
 }
 
 @media (min-width: 768px) {
@@ -125,6 +134,7 @@
   font-size: 0.875rem;
   outline: none;
   border: none;
+  height: 100%;
 }
 
 .search-btn {
@@ -133,4 +143,8 @@
   border: none;
   font-size: 0.875rem;
   cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
